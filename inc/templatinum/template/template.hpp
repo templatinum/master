@@ -61,25 +61,24 @@
 #define TEMPLATINUM_TEMPLATE_ 1
 
 // require the C++ framework header
-#ifndef DJINTERP_
-    #error "template.hpp requires djinterp.h to be included first"
-#endif
-
-#ifndef __cplusplus
-    #error "template.hpp can only be used in C++ compilation mode"
-#endif
-
-#if !D_ENV_LANG_IS_CPP11_OR_HIGHER
-    #error "template.hpp requires C++11 or higher"
-#endif
+//#ifndef DJINTERP_
+//    #error "template.hpp requires djinterp.h to be included first"
+//#endif
+//
+//#ifndef __cplusplus
+//    #error "template.hpp can only be used in C++ compilation mode"
+//#endif
+//
+//#if !D_ENV_LANG_IS_CPP11_OR_HIGHER
+//    #error "template.hpp requires C++11 or higher"
+//#endif
 
 #include <cstddef>
 #include <functional>
 #include <type_traits>
 #include <utility>
 #include <vector>
-
-#include "template_traits.hpp"
+#include "./template_traits.hpp"
 
 
 NS_DJINTERP
