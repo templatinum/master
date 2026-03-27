@@ -53,7 +53,8 @@
 * PORTABLE ACROSS:
 *   C++11, C++14, C++17, C++20, C++23, C++26
 *
-* path:      \inc\templatinum\template.hpp
+* 
+* path:      /inc/templatinum/template.hpp
 * author(s): Samuel 'teer' Neal-Blim                          date: 2026.03.25
 ******************************************************************************/
 
